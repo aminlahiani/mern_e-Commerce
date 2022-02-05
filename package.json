@@ -1,31 +1,32 @@
 {
-  "name": "proshop",
+  "name": "mern_e-commerce",
   "version": "1.0.0",
-  "description": "express shopping backend",
-  "main": "server.js",
-  "type": "module",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node backend/server",
-    "server": "nodemon backend/server",
-    "data:import": "node backend/seeder",
-    "data:destroy": "node backend/seeder -d"
+    "start": "node  backend/server.js",
+    "dev": "nodemon  backend/server.js"
   },
-  "author": "Brad Traversy",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aminlahiani/mern_e-Commerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aminlahiani/mern_e-Commerce/issues"
+  },
+  "homepage": "https://github.com/aminlahiani/mern_e-Commerce#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "colors": "^1.4.0",
     "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-async-handler": "^1.1.4",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.10.6",
-    "morgan": "^1.10.0",
-    "multer": "^1.4.2"
-  },
-  "devDependencies": {
-    "concurrently": "^5.3.0",
-    "nodemon": "^2.0.4"
+    "mongoose": "^6.2.0",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "validator": "^13.7.0"
   }
 }
